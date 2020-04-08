@@ -18,6 +18,15 @@ function UserCard(props){
 
                         <p>Bio: {props.userData.bio}</p>
 
+                        <div className='card2'>
+                            <h3>Followers:</h3>
+                            {props.followers.map(follower => {
+                            return (
+                            <p>{follower.login}</p>
+                    )
+                })}
+            </div>
+
 
                     </div>
                 </div>
