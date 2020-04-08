@@ -5,7 +5,7 @@ function UserCard(props){
         <div className="container">
             <div className="card">
                 <div className="pic">
-                    <img src={props.userData.avatar_url} alt="user"/>
+                    <img src={props.userData.avatar_url} className="userpic" alt="user"/>
                 </div>
                 <div className="info-container">
                     <h3>{props.userData.name}</h3>
@@ -18,16 +18,17 @@ function UserCard(props){
 
                         <p>Bio: {props.userData.bio}</p>
 
-                        <div className='card2'>
+                        <div className='followers'>
+                            
                             <h3>Followers:</h3>
                             {props.followers.map(follower => {
                             return (
-                            <p>{follower.login}</p>
-                    )
-                })}
-            </div>
-
-
+                            <div className="followersList">
+                                <p>Username: <a href={follower.html_url}>{follower.login}</a> </p> 
+                            </div>
+                            )
+                            })}
+                        </div>
                     </div>
                 </div>
             </div>
