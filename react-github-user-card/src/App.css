@@ -12,12 +12,14 @@
   box-shadow: 3px 3px 5px 6px lightgrey;
   width: 35%;
   height: 30vh;
+  
 }
 
 .info-container{
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: -5%;
 }
 
 .info{
