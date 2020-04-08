@@ -17,6 +17,7 @@ function UserCard(props){
                         <p>Followers: {props.userData.followers}</p>
 
                         <p>Bio: {props.userData.bio}</p>
+                        <hr/>
 
                         <div>
                             <h3>Followers:</h3>
