@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+.card{
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  padding: 1%;
+  border-radius: 1%;
+  box-shadow: 3px 3px 5px 6px lightgrey;
+  width: 35%;
+  height: 30vh;
+  
+}
+
+.info-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: -5%;
+}
+
+.info{
+  margin-top: -7%;
+}
+
+.pic {
+  padding-right: 5%;
+}
+
+.userpic{
+  height: 30vh;
+}
+
+.followers    {
+  height: 70px;
+  width: 100%;
+  overflow: auto;
+  float: left;
+  position: relative;
+  margin-top: -20px;
+  
+  
+}
+
+a{
+  text-decoration: none;
+  font-size: 16px;
+  color: rgb(128, 172, 253);
+  
+}
+
+a:hover{
+  color: rgb(255, 111, 111);
+}
+
+
+
+
